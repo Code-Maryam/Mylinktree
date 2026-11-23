@@ -1,0 +1,85 @@
+body {
+    background-color: grey;
+}
+img { max-width: 100%;
+    height: 110px;
+    width: 110px;
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+}
+h1 {
+    color:black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Playfair Display;
+     font-style: italic;
+
+}
+
+p{
+    color: black;
+    font-size: 1.5rem;
+    font-family: Playfair Display;
+    font-style: italic;
+    margin-top: 0;
+
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.top-socials{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font: size 24px;
+    text-decoration: none;
+    justify-content: center;
+    margin-bottom: 25px; 
+}
+.top-socials a {
+    color: black;
+ 
+}
+.links-list{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    gap: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 90%; 
+    max-width: 480px;
+    margin: 0 auto;
+}
+.link-card{
+    text-decoration: none;
+    color:black;
+    padding:20px;
+    background-color: pink;
+    border-radius: 16px;
+   position: relative;
+   display:flex;
+   justify-content: center;
+   width: 100%; 
+   max-width: 480px;
+   transition: background-color 0.25 ease;
+}
+.link-card:hover{
+    background-color: silver;
+    
+}
+.link-card i:first-child {
+     position: absolute; left:20px;
+
+}
+.link-card .dots {
+    position: absolute; right:20px;
+}
